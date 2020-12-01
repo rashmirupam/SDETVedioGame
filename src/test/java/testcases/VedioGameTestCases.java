@@ -3,7 +3,6 @@ import io.restassured.response.Response;
 import org.junit.Assert;
 import org.testng.annotations.Test;
 import java.util.HashMap;
-
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.CoreMatchers.equalTo;
 
