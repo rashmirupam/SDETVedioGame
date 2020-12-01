@@ -7,8 +7,6 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.CoreMatchers.equalTo;
 
 
-
-
 //FOR GET REQUEST
 public class VedioGameTestCases {
     @Test (priority=1)
@@ -18,11 +16,10 @@ public class VedioGameTestCases {
                 .get("http://localhost:8080/app/videogames")
                 .then()
                 .statusCode(200);
-
     }
 
-//FOR POST REQUEST
 
+//FOR POST REQUEST
     @Test (priority=2)
     public void PostAddNewVedioGame() {
         HashMap data = new HashMap();
@@ -46,8 +43,8 @@ public class VedioGameTestCases {
     }
 
 
-//FOR GET REQUEST
 
+//FOR GET REQUEST
     @Test(priority=3)
     public void getVedioGameById() {
         given()
@@ -62,7 +59,6 @@ public class VedioGameTestCases {
     }
 
 //FOR PUT REQUEST
-
      @Test (priority = 4)
     public void updateVedioGame() {
         HashMap data = new HashMap();
@@ -86,8 +82,7 @@ public class VedioGameTestCases {
 
 }
 
-    //FOR DELETE REQUEST
-
+//FOR DELETE REQUEST
 @Test (priority = 5)
 public void DeleteVedioGame()
 {
