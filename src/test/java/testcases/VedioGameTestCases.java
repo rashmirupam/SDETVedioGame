@@ -96,6 +96,7 @@ public void DeleteVedioGame()
             .log().body()
             .extract().response();
     String jsonString=res.asString();
+    System.out.println("rupam");
     Assert.assertEquals(jsonString.contains("Record Deleted Successfully"),true);
 }
 }
