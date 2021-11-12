@@ -39,6 +39,7 @@ public class VedioGameTestCases {
                 .statusCode(200)
                 .log().body().extract().response();
         String jsonString = response.asString();
+        System.out.println("rashmi");
         Assert.assertEquals(jsonString.contains("Record Added Successfully"), true);
     }
 
