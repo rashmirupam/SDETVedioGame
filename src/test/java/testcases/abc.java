@@ -7,4 +7,7 @@ public class abc {
         System.out.println(a);
         System.out.println(b);
     }
+    void m2(){
+        System.out.println("this is rashmi change");
+    }
 }
