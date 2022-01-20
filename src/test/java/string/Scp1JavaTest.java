@@ -8,7 +8,7 @@ public class Scp1JavaTest {
             System.out.println("String s1 and s2 both are same");
         }
         else{
-            System.out.println("Strings s1 and s2 both are not same");
+            System.out.println("Strings s1 and s2 both are not same")  ;
         }
     }
 }
